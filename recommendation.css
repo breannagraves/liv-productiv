@@ -1,0 +1,273 @@
+body {
+  font-family: verdana;
+  /* margin: 2em; */
+  background: rgb(223, 239, 244);
+}
+
+h1 {
+  /* font-size: 80px; */
+  text-align: center;
+  /*font-style: italic;*/
+  color: #0b0c38;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #0b0c38;
+}
+
+#result {
+  font-size: 50px;
+  text-align: center;
+  margin: 100px;
+
+}
+
+.question {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* margin: 20px; */
+  text-align: center;
+  background-color: #ffffffbe;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+
+.herocontainer {
+  position: relative;
+
+}
+
+.hero {
+  padding: 255px;
+  text-align: center;
+  background-color: #d0e3ef;
+  background-image: url('https://i.itworldcanada.com/wp-content/uploads/2020/09/GettyImages-1168910967-1536x922.jpg');
+  background-position: center center;
+  background-repeat:no-repeat;
+  vertical-align: middle;
+  color: white;
+  font-size: 20px;
+}
+
+.hero-text {
+  color: #0b0c38;
+  background-color: #ffffffe6;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 7px 7px #0b0c3886;
+
+}
+
+.footer {
+  padding: 30px;
+  text-align: center;
+  background: #27b397;
+  font-size: 12px;
+  color: white;
+}
+
+.answer-choice img {
+  border-radius: 12px;
+  justify-content: space-evenly;
+  height: 15em;
+  /*font-size: 1px;*/
+}
+
+button {
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+}
+
+.button {
+  background-color: #647ed3;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 4px;
+  border-top-left-radius: 4px;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 20px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color: #0b0c38;
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container>div {
+  border-style: solid;
+  padding: 10px;
+  flex-direction: row;
+
+}
+
+
+#description {
+  text-align: justify;
+}
+
+/* navbar styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  overflow-x: hidden;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: #0b0c38;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0b0c38;
+  font-size: 20px;
+  padding: 2% 4%;
+}
+
+.mobile-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle-button {
+  color: white;
+  background-color: black;
+  font-size: 24px;
+}
+
+.nav-list {
+  display: none;
+}
+
+.show {
+  padding-top: 2%;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.nav-item {
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  padding: 3%;
+}
+
+.nav-button {
+  padding: 10px 15px;
+  margin: 0px 20px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 4px;
+  border-top-left-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.5s;
+  background-color: #f8cd54;
+  font-weight: 500;
+}
+
+.nav-button:hover {
+  background-color: #0b0c38;
+  border-color: #0b0c38;
+  transition: 0.7s;
+  color: white;
+}
+
+.logo-container {
+  justify-content: space-between;
+  margin-right: 2%;
+}
+
+@media only screen and (min-width : 768px) {
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 2% 6%;
+    background-color: #27b397;
+    font-size: 20px;
+  }
+
+  .logo {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    float: right;
+    margin-right: 10%;
+    padding-top: 12px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  .nav-item {
+    display: inline;
+    color: #ffffff;
+  }
+
+  .nav-item:hover {
+    background-color: #000000;
+    transition: 0.7s;
+
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+
+  .hide {
+    display: none;
+  }
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<title>LivProductiv</title>
+	<link rel="icon" sizes="220x220" href="productivity.png" />
+	<link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+	<header class="header">
+		<nav class="nav">
+			<div class="mobile-nav">
+				<div class="logo-container">
+					<svg width="300px" height="80px" viewBox="0 0 1050 1050" xmlns="http://www.w3.org/2000/svg">
+						<image href="livproductiv.png" x="-1400" y="0" width="2500px" height="1200px"/>
+					</svg>
+				</div>
+				<div class="navbar hide">
+					<button id="open" class="toggle-button"><i class="fa fa-bars" aria-hidden="true"></i></button>
+					<button id="close" class="toggle-button"><i class="fa fa-times" aria-hidden="true"></i></button>
+				</div>
+			</div>
+
+			<ul class="nav-list">
+				<li><a href="/popup.html" class="nav-link">Home</a></li>
+				<li><a href="/goalform.html">Set Goals</a></li>
+				<li><a href="/recommendation.html">Resources</a></li>
+				<li><a href="/logout.html"><button class="nav-button">Log Out</button></a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="herocontainer"> 
+	<div class="hero">
+		<div class="hero-text">
+		<h1>Make Every Minute Count with LivProductiv</h1>
+		<p>Start the Timer During Times of Productivity, and Pause it When you need a break!</p>
+		</div>
+	</div>
+	</div>
+
+	<div class="container">
+		<h2>Working Time </h2>
+		<div id="time">
+			<span class="digit" id="hr">
+			00</span>
+			<span class="txt">Hr</span>
+			<span class="digit" id="min">
+			00</span>
+			<span class="txt">Min</span>
+			<span class="digit" id="sec">
+			00</span>
+			<span class="txt">Sec</span>
+			<span class="digit" id="count">
+			00</span>
+		</div>
+		<div id="buttons">
+			<button class="btn" id="start">
+			Start</button>
+			<button class="btn" id="pause">
+			Pause</button>
+			<button class="btn" id="reset">
+			Reset</button>
+		</div>
+	</div>
+
+	
+
+	
+	<div class="footer">
+		<h3>© 2023 LivProductiv LLC. </h3>
+	</div>
+
+	<script src="background.js"></script>
+	
+</body>
+
+</html>

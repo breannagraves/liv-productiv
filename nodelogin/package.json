@@ -1,0 +1,20 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "login for ScreenTime project",
+  "main": "login.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.txstate.edu/mhe17/LivProductiv.git"
+  },
+  "author": "Breanna Graves",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mysql": "^2.18.1"
+  }
+}

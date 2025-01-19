@@ -1,0 +1,27 @@
+
+
+.herocontainer {
+	position: relative;
+	
+
+	
+  }
+
+.hero {
+	padding: 450px;
+	text-align: center;
+	background-color: #d0e3ef;
+	background-image:  url('https://www.worklifepsych.com/wp-content/uploads/2018/11/WLP_web_image-11.png');
+	background-position: center center;
+	vertical-align: middle;
+	color: white;
+	font-size: 20px;
+  }  
+
+  .hero-text{
+	color: #0b0c38;
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 10px;
+
+}

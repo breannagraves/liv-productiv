@@ -1,0 +1,241 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Goals - LivProductiv</title>
+    <link rel="icon" sizes="220x220" href="productivity.png" />
+    <link rel="stylesheet" href="recommendation.css">
+</head>
+
+<body>
+	<header class="header">
+		<nav class="nav">
+			<div class="mobile-nav">
+				<div class="logo-container">
+					<svg width="300px" height="80px" viewBox="0 0 1050 1050" xmlns="http://www.w3.org/2000/svg">
+						<image href="livproductiv.png" x="-1400" y="0" width="2500px" height="1200px"/>
+					</svg>
+				</div>
+				<div class="navbar hide">
+					<button id="open" class="toggle-button"><i class="fa fa-bars" aria-hidden="true"></i></button>
+					<button id="close" class="toggle-button"><i class="fa fa-times" aria-hidden="true"></i></button>
+				</div>
+			</div>
+
+			<ul class="nav-list">
+				<li><a href="/popup.html" class="nav-link">Home</a></li>
+				<li><a href="/goalform.html">Set Goals</a></li>
+                <li><a href="/recommendation.html">Resources</a></li>
+				<li><a href="/logout.html"><button class="nav-button">Log Out</button></a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="herocontainer"> 
+	<div class="hero">
+		<div class="hero-text">
+		<h1>Self Help Resources</h1>
+		<p>Answer the following quiz questions to recieve a self help book recommendation!</p>
+		</div>
+	</div>
+	</div>
+
+  <div>
+    <!-- <h1>Book Recommendation Engine</h1> -->
+    <h2>
+      <span>What kind of productivity solution are you looking for?</span>
+    </h2>
+  `</div>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1489641024260-20e5cb3ee4aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2533&q=80"
+          width="250" height="200" />
+        <br />
+        <button class="button" id="q1a1">Long Term</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1457969414820-5fdd86fc0b84?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2068&q=80"
+          width="250" height="200" />
+        <br />
+        <button class="button" id="q1a2">Short Term</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1542596081-6d3eaca5240c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          width="250" height="200" />
+        <br />
+        <button class="button" id="q1a3">Habit Changing</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          width="250" height="200" />
+        <br />
+        <button class="button" id="q1a4">Mindset Changing</button>
+      </div>
+    </div>
+  
+    <h2>
+      <span>What is your biggest productivity obstacle?</span>
+    </h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1503551723145-6c040742065b-v2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          width="250" height="200" />
+        <br />
+        <button class="button" id="q2a1">Effective Productivity Strategy</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1517926112623-f32a800790d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          width="250" height="200" />
+        <br />
+        <button class="button" id="q2a2">Staying Focused</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1621252179027-94459d278660?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          width="250" height="200" />
+        <br />
+        <button class="button" id="q2a3">Stressing too Much</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1627850604058-52e40de1b847?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2073&q=80"
+          width="250" height="200" />
+        <br />
+        <button class="button" id="q2a4">Knowing what to get done first</button>
+      </div>
+    </div>
+  
+    <h2>
+      <span>What aspects are you willing to change?</span>
+    </h2>
+  
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1549633030-89d0743bad01?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+          width="250" height="200" />
+        <br />
+        <button class="button" id="q3a1">My Habits</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1617900307989-00798307bd48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          width="250" height="200" />
+        <br />
+        <button class="button" id="q3a2">Eliminating Distractions</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1474022650697-7624c32312fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          width="250" height="200" />
+        <br />
+        <button class="button" id="q3a3">Relaxing More</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1508962914676-134849a727f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          width="250" height="200" />
+        <br />
+        <button class="button" id="q3a4">Time Management</button>
+      </div>
+    </div>
+  
+    <h2><span>What strategies have you tried before?</span></h2>
+  
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1522249210728-7cd95094022a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          width="250" height="200" />
+        <br />
+        <button class="button" id="q4a1">Instrumental Music</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://content.instructables.com/FEE/PZC2/ILPI6BDL/FEEPZC2ILPI6BDL.jpg?auto=webp&frame=1&width=1024&fit=bounds&md=fddd4849daf571e038229989f3d96a86"
+          width="280" height="200" />
+        <br />
+        <button class="button" id="q4a2">Stress Ball</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1594074456536-f7c281aa6bcc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2128&q=80"
+          width="280" height="200" />
+        <br />
+        <button class="button" id="q4a3">Fidget Toy</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1603336540413-009bd9dc5133?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+          width="250" height="200" />
+        <br />
+        <button class="button" id="q4a4">Earplugs</button>
+      </div>
+    </div>
+  
+    <h2>
+      <span>Are You Good at Setting Boundaries with your Time?</span>
+    </h2>
+  
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1516382022989-cd771ab91fb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80"
+          width="250" height="200" />
+        <br />
+        <button class="button" id="q5a1">Yes, Definitely</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1623811254317-3fd2479ebf37?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          width="250" height="200" />
+        <br />
+        <button class="button" id="q5a2">Eh, Sort Of</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1472847720459-21ede812f22a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2067&q=80"
+          width="250" height="200" />
+        <br />
+        <button class="button" id="q5a3">No, Definitely Not</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1536427408999-efed3182f82e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          width="300" height="200" />
+        <br />
+        <button class="button" id="q5a4">Sometimes Yes, Sometimes No</button>
+      </div>
+    </div>
+  
+    <div>
+      <div class="result">
+        <h3 id="result">Your result is...</h3>
+        <p id="description"></p>
+      </div>
+    </div>
+	</div>
+
+	
+
+<!-- 	
+	<div class="footer">
+		<h3>© 2023 LivProductiv LLC. </h3>
+	</div> -->
+	
+  <script src="recommendation.js"></script>
+
+</body>
+
+</html>
