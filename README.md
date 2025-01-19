@@ -8,11 +8,22 @@ Features:
 * Goal Tracker
 * Quiz to recommend personalized self help book recommendations 
 
-Front end - HTML/CSS/JS. 
+Front end - HTML/CSS/JS. <br>
 Backend - Node.js/Express, SQL, PHP
 
+![Screenshot_19-1-2025_155353_localhost](https://github.com/user-attachments/assets/86cc589d-9493-4eef-8d1d-e58c7e3f642e)
+
+![Screenshot_19-1-2025_155424_localhost](https://github.com/user-attachments/assets/a6a953dc-c75b-446f-915a-e05c2c40e7f1)
+
+![Screenshot_19-1-2025_155458_localhost](https://github.com/user-attachments/assets/777f5251-5c06-4f85-bd3a-cdecf31bae45)
+
+![Screenshot_19-1-2025_155519_localhost](https://github.com/user-attachments/assets/63dccdaa-957d-4d3d-8346-44c531f38d62)
+
+![Screenshot_19-1-2025_155730_localhost](https://github.com/user-attachments/assets/ac62fa25-dbc1-4772-a73c-bdfdaf026426)
+
+![Screenshot_19-1-2025_155757_localhost](https://github.com/user-attachments/assets/f3846e8a-75f7-4829-a3db-edcf19a67634)
+
 <div><h1 id="markdown-header-livproductiv">LivProductiv</h1>
-<p>A website that provides users with tools to be more productive. </p>
 <h2 id="markdown-header-run-locally">Run Locally</h2>
 <p>Clone the project</p>
 <div class="codehilite"><pre><span></span>  git clone https://git.txstate.edu/mhe17/LivProductiv.git
